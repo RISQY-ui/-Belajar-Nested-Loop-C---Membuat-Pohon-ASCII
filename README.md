@@ -1,12 +1,13 @@
 # -Belajar-Nested-Loop-C---Membuat-Pohon-ASCII
 
-🌲 Belajar Nested Loop C++ - Membuat Pohon ASCII
+# 🌲 Belajar Nested Loop C++ - Membuat Pohon ASCII
 
 Pendahuluan
 
 Program ini menggunakan nested loop (perulangan bersarang) untuk membuat gambar pohon menggunakan karakter "*".
 
 Kode:
+```cpp
 
 #include <iostream>
 using namespace std;
@@ -31,11 +32,11 @@ int main() {
 
     return 0;
 }
-
+```
 ---
 
-Cara Kerja Program
-
+# Cara Kerja Program
+```
 Program terdiri dari tiga bagian utama.
 
 1. Loop Luar ("i")
@@ -143,8 +144,10 @@ Outputnya seperti:
 ---
 
 Bentuk Akhir
+```
 
-Program menghasilkan bentuk seperti berikut.
+# Program menghasilkan bentuk seperti berikut.
+```
 
             **
            ****
@@ -159,15 +162,16 @@ Program menghasilkan bentuk seperti berikut.
   **********************
  ************************
 **************************
-        | |
-        | |
-        | |
-        | |
-        | |
-
+           | |
+           | |
+           | |
+           | |
+           | |
+```
 ---
 
-Kesimpulan
+# Kesimpulan
+```
 
 - "i" menentukan tinggi pohon.
 - "s" menentukan jumlah spasi agar pohon berada di tengah.
@@ -176,3 +180,4 @@ Kesimpulan
 - Batang pohon dibuat setelah seluruh daun selesai dicetak menggunakan beberapa "cout".
 
 «💡 Latihan ini sangat baik untuk memahami nested loop karena setiap loop memiliki tugas yang berbeda: ada yang mengatur tinggi, posisi, dan lebar gambar.»
+
